@@ -480,7 +480,7 @@
 }
 
 + (NSString *)sq_formatYMD:(NSDate *)date {
-    return [NSString stringWithFormat:@"%lu-%02lu-%02lu",[date sq_year],[date sq_month], [date sq_day]];
+    return [NSString stringWithFormat:@"%zd-%02zd-%02zd",[date sq_year],[date sq_month], [date sq_day]];
 }
 
 - (NSUInteger)sq_weeksOfMonth {
