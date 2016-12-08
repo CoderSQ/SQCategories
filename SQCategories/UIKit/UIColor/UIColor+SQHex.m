@@ -19,7 +19,7 @@ CGFloat sq_colorComponentValue(NSString *str, NSUInteger start, NSUInteger lengt
 
 @implementation UIColor (SQHex)
 
-- (UIColor *)sq_colorWithHexString:(NSString *)hexString {
++ (UIColor *)sq_colorWithHexString:(NSString *)hexString {
     
     CGFloat red, green, blue , alpha;
     NSString *colorString = [hexString stringByReplacingOccurrencesOfString:@"#" withString:@""];

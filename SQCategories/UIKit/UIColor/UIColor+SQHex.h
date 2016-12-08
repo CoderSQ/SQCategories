@@ -10,6 +10,6 @@
 
 @interface UIColor (SQHex)
 
-- (UIColor *)sq_colorWithHexString:(NSString *)hexString;
++ (UIColor *)sq_colorWithHexString:(NSString *)hexString;
 
 @end
