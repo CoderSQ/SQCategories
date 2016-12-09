@@ -14,6 +14,6 @@
     NSUInteger green = arc4random() % 255;
     NSUInteger blue = arc4random() %255;
     
-    return [UIColor colorWithRed:red green:green blue:blue alpha:1.0f];
+    return [UIColor colorWithRed:red / 255.0f green:green / 255.0f blue:blue / 255.0f alpha:1.0f];
 }
 @end
