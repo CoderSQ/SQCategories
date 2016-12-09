@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "SQCategories"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "a collection of useful Objective-C Categories extending iOS Frameworks."
 
   s.homepage     = "https://github.com/CoderSQ/SQCategories.git"
