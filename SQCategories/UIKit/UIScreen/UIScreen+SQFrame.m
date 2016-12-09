@@ -30,4 +30,19 @@
     return [self mainScreen].scale;
 }
 
+// 导航栏高度
++ (CGFloat) sq_navBarHeight {
+    return 64.0f;
+}
+
+// tabbar高度
++ (CGFloat) sq_tabBarHeight {
+    return 49.0f;
+}
+
+// 状态栏高度
++ (CGFloat) sq_statusBarHeight {
+    return 20.0f;
+}
+
 @end
