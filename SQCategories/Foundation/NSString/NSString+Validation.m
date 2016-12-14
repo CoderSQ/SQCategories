@@ -108,7 +108,7 @@
  * 邮箱
  */
 + (BOOL) validationEmailAddress:(NSString *)str {
-    NSString *format = @"\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*";
+    NSString *format = @"\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
     
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",format];
     return  [predicate evaluateWithObject:str];
