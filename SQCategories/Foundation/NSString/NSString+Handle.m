@@ -108,7 +108,7 @@
     
     while (range.location != NSNotFound) {
         [array addObject:[NSValue valueWithRange:range1]];
-        NSString *subStr = [self substringFromIndex:range1.location + range1.length];
+        NSString* subStr = [self substringFromIndex:range1.location + range1.length];
         
         range = [subStr rangeOfString:str];
         range1 = NSMakeRange(range1.location + range1.length + range.location, range.length);
