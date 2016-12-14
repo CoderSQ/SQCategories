@@ -46,7 +46,7 @@
             return nil;
         i++;
         
-        unichar hex_char2 = [hexString characterAtIndex:i]; ///两位16进制数中的第二位(低位)
+        unichar hex_char2 = [hexString characterAtIndex:i];///两位16进制数中的第二位(低位)
         int int_ch2;
         if(hex_char2 >= '0' && hex_char2 <='9')
             int_ch2 = (hex_char2-48); //// 0 的Ascll - 48
@@ -60,7 +60,6 @@
     }
     return bytes;
 }
-
 
 //普通字符串转换为十六进制的。
 + (NSString *)hexStringFromString:(NSString *)string{
