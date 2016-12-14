@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182CAFA21E00E9BB003589C4 /* UINavigationBar+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CAFA11E00E9BB003589C4 /* UINavigationBar+SQExtension.m */; };
+		182CAFA81E00F0FF003589C4 /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CAFA51E00F0FF003589C4 /* NSString+StringSize.m */; };
+		182CAFA91E00F0FF003589C4 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CAFA71E00F0FF003589C4 /* NSString+Validation.m */; };
+		182CAFAC1E00F118003589C4 /* NSString+MoneyString.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CAFAB1E00F118003589C4 /* NSString+MoneyString.m */; };
+		182CAFAF1E00F1AC003589C4 /* NSString+Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CAFAE1E00F1AC003589C4 /* NSString+Handle.m */; };
 		187A829E1DF4F93F00816263 /* NSDate+SQExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A829D1DF4F93F00816263 /* NSDate+SQExtentsion.m */; };
 		187A82A11DF539AA00816263 /* NSArray+SQSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A82A01DF539AA00816263 /* NSArray+SQSafety.m */; };
 		187A82A41DF53CA200816263 /* NSDictionary+SQSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A82A31DF53CA200816263 /* NSDictionary+SQSafety.m */; };
@@ -51,6 +56,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182CAFA01E00E9BB003589C4 /* UINavigationBar+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SQExtension.h"; sourceTree = "<group>"; };
+		182CAFA11E00E9BB003589C4 /* UINavigationBar+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SQExtension.m"; sourceTree = "<group>"; };
+		182CAFA41E00F0FF003589C4 /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
+		182CAFA51E00F0FF003589C4 /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
+		182CAFA61E00F0FF003589C4 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		182CAFA71E00F0FF003589C4 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		182CAFAA1E00F118003589C4 /* NSString+MoneyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MoneyString.h"; sourceTree = "<group>"; };
+		182CAFAB1E00F118003589C4 /* NSString+MoneyString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MoneyString.m"; sourceTree = "<group>"; };
+		182CAFAD1E00F1AC003589C4 /* NSString+Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Handle.h"; sourceTree = "<group>"; };
+		182CAFAE1E00F1AC003589C4 /* NSString+Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Handle.m"; sourceTree = "<group>"; };
 		187A829C1DF4F93F00816263 /* NSDate+SQExtentsion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SQExtentsion.h"; sourceTree = "<group>"; };
 		187A829D1DF4F93F00816263 /* NSDate+SQExtentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SQExtentsion.m"; sourceTree = "<group>"; };
 		187A829F1DF539AA00816263 /* NSArray+SQSafety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SQSafety.h"; sourceTree = "<group>"; };
@@ -125,6 +140,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182CAF9F1E00E992003589C4 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				182CAFA01E00E9BB003589C4 /* UINavigationBar+SQExtension.h */,
+				182CAFA11E00E9BB003589C4 /* UINavigationBar+SQExtension.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		182CAFA31E00F0FF003589C4 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				182CAFA41E00F0FF003589C4 /* NSString+StringSize.h */,
+				182CAFA51E00F0FF003589C4 /* NSString+StringSize.m */,
+				182CAFA61E00F0FF003589C4 /* NSString+Validation.h */,
+				182CAFA71E00F0FF003589C4 /* NSString+Validation.m */,
+				182CAFAA1E00F118003589C4 /* NSString+MoneyString.h */,
+				182CAFAB1E00F118003589C4 /* NSString+MoneyString.m */,
+				182CAFAD1E00F1AC003589C4 /* NSString+Handle.h */,
+				182CAFAE1E00F1AC003589C4 /* NSString+Handle.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		187A82AE1DF68C5C00816263 /* UIApplication */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +241,7 @@
 		18A7056F1DF173B400174D32 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				182CAFA31E00F0FF003589C4 /* NSString */,
 				18A705941DF2D1BE00174D32 /* NSDate */,
 				18A705771DF173D800174D32 /* NSArray */,
 				18A705781DF173D800174D32 /* NSDictionary */,
@@ -213,6 +253,7 @@
 		18A705701DF173B400174D32 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				182CAF9F1E00E992003589C4 /* UINavigationBar */,
 				187A82AE1DF68C5C00816263 /* UIApplication */,
 				18A705711DF173B400174D32 /* UIColor */,
 				18A705721DF173B400174D32 /* UIDevice */,
@@ -462,13 +503,18 @@
 				187A82A11DF539AA00816263 /* NSArray+SQSafety.m in Sources */,
 				18A7058A1DF2739A00174D32 /* UIScreen+SQFrame.m in Sources */,
 				187A82AA1DF5628D00816263 /* UIImage+SQRoundCoroner.m in Sources */,
+				182CAFA91E00F0FF003589C4 /* NSString+Validation.m in Sources */,
+				182CAFA21E00E9BB003589C4 /* UINavigationBar+SQExtension.m in Sources */,
+				182CAFAF1E00F1AC003589C4 /* NSString+Handle.m in Sources */,
 				18A7057B1DF1747400174D32 /* UIView+SQFrame.m in Sources */,
 				18A705811DF25B5500174D32 /* UIImage+SQResize.m in Sources */,
+				182CAFAC1E00F118003589C4 /* NSString+MoneyString.m in Sources */,
 				18A705871DF26F4F00174D32 /* UIWindow+SQHierarchy.m in Sources */,
 				187A82B11DF68D3B00816263 /* UIApplication+SQExtension.m in Sources */,
 				187A82A71DF55FD400816263 /* UIDevice+SQHardware.m in Sources */,
 				18A705931DF2974700174D32 /* UIColor+SQGradient.m in Sources */,
 				18A7057E1DF17C4900174D32 /* UIView+Capture.m in Sources */,
+				182CAFA81E00F0FF003589C4 /* NSString+StringSize.m in Sources */,
 				187A82A41DF53CA200816263 /* NSDictionary+SQSafety.m in Sources */,
 				18A7053D1DF1711D00174D32 /* main.m in Sources */,
 			);
