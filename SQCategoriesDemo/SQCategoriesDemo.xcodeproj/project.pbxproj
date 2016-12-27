@@ -36,6 +36,7 @@
 		18A7058D1DF2752000174D32 /* UIColor+SQHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7058C1DF2752000174D32 /* UIColor+SQHex.m */; };
 		18A705901DF296BB00174D32 /* UIColor+SQRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7058F1DF296BB00174D32 /* UIColor+SQRandom.m */; };
 		18A705931DF2974700174D32 /* UIColor+SQGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A705921DF2974700174D32 /* UIColor+SQGradient.m */; };
+		18E984BF1E1269480008DE5D /* UIControl+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E984BE1E1269480008DE5D /* UIControl+SQExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		18A7058F1DF296BB00174D32 /* UIColor+SQRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SQRandom.m"; sourceTree = "<group>"; };
 		18A705911DF2974700174D32 /* UIColor+SQGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SQGradient.h"; sourceTree = "<group>"; };
 		18A705921DF2974700174D32 /* UIColor+SQGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SQGradient.m"; sourceTree = "<group>"; };
+		18E984BD1E1269480008DE5D /* UIControl+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+SQExtension.h"; sourceTree = "<group>"; };
+		18E984BE1E1269480008DE5D /* UIControl+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SQExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +256,7 @@
 		18A705701DF173B400174D32 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				18E984BC1E1268EE0008DE5D /* UIControl */,
 				182CAF9F1E00E992003589C4 /* UINavigationBar */,
 				187A82AE1DF68C5C00816263 /* UIApplication */,
 				18A705711DF173B400174D32 /* UIColor */,
@@ -355,6 +359,15 @@
 				187A829D1DF4F93F00816263 /* NSDate+SQExtentsion.m */,
 			);
 			path = NSDate;
+			sourceTree = "<group>";
+		};
+		18E984BC1E1268EE0008DE5D /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				18E984BD1E1269480008DE5D /* UIControl+SQExtension.h */,
+				18E984BE1E1269480008DE5D /* UIControl+SQExtension.m */,
+			);
+			path = UIControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,6 +512,7 @@
 				18A705841DF25B7400174D32 /* UIImage+Capture.m in Sources */,
 				18A705401DF1711D00174D32 /* AppDelegate.m in Sources */,
 				18A7058D1DF2752000174D32 /* UIColor+SQHex.m in Sources */,
+				18E984BF1E1269480008DE5D /* UIControl+SQExtension.m in Sources */,
 				187A829E1DF4F93F00816263 /* NSDate+SQExtentsion.m in Sources */,
 				187A82A11DF539AA00816263 /* NSArray+SQSafety.m in Sources */,
 				18A7058A1DF2739A00174D32 /* UIScreen+SQFrame.m in Sources */,
