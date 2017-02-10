@@ -19,6 +19,10 @@
 		187A82AA1DF5628D00816263 /* UIImage+SQRoundCoroner.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A82A91DF5628D00816263 /* UIImage+SQRoundCoroner.m */; };
 		187A82AC1DF567B400816263 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 187A82AB1DF567B400816263 /* 11.jpg */; };
 		187A82B11DF68D3B00816263 /* UIApplication+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A82B01DF68D3B00816263 /* UIApplication+SQExtension.m */; };
+		188027CB1E4C598800B189C8 /* NSString+SQEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 188027CA1E4C598800B189C8 /* NSString+SQEncrypt.m */; };
+		188027CE1E4C599500B189C8 /* NSString+SQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 188027CD1E4C599500B189C8 /* NSString+SQBase64.m */; };
+		188027D11E4C59AC00B189C8 /* NSData+SQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 188027D01E4C59AC00B189C8 /* NSData+SQBase64.m */; };
+		188027D41E4C5B5100B189C8 /* NSData+SQEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 188027D31E4C5B5100B189C8 /* NSData+SQEncrypt.m */; };
 		18A7053D1DF1711D00174D32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7053C1DF1711D00174D32 /* main.m */; };
 		18A705401DF1711D00174D32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7053F1DF1711D00174D32 /* AppDelegate.m */; };
 		18A705431DF1711D00174D32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A705421DF1711D00174D32 /* ViewController.m */; };
@@ -80,6 +84,14 @@
 		187A82AB1DF567B400816263 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
 		187A82AF1DF68D3B00816263 /* UIApplication+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SQExtension.h"; sourceTree = "<group>"; };
 		187A82B01DF68D3B00816263 /* UIApplication+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SQExtension.m"; sourceTree = "<group>"; };
+		188027C91E4C598800B189C8 /* NSString+SQEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SQEncrypt.h"; sourceTree = "<group>"; };
+		188027CA1E4C598800B189C8 /* NSString+SQEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQEncrypt.m"; sourceTree = "<group>"; };
+		188027CC1E4C599500B189C8 /* NSString+SQBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SQBase64.h"; sourceTree = "<group>"; };
+		188027CD1E4C599500B189C8 /* NSString+SQBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQBase64.m"; sourceTree = "<group>"; };
+		188027CF1E4C59AC00B189C8 /* NSData+SQBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SQBase64.h"; sourceTree = "<group>"; };
+		188027D01E4C59AC00B189C8 /* NSData+SQBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SQBase64.m"; sourceTree = "<group>"; };
+		188027D21E4C5B5100B189C8 /* NSData+SQEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SQEncrypt.h"; sourceTree = "<group>"; };
+		188027D31E4C5B5100B189C8 /* NSData+SQEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SQEncrypt.m"; sourceTree = "<group>"; };
 		18A705381DF1711D00174D32 /* SQCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A7053C1DF1711D00174D32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A7053E1DF1711D00174D32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +175,10 @@
 				182CAFAB1E00F118003589C4 /* NSString+MoneyString.m */,
 				182CAFAD1E00F1AC003589C4 /* NSString+Handle.h */,
 				182CAFAE1E00F1AC003589C4 /* NSString+Handle.m */,
+				188027C91E4C598800B189C8 /* NSString+SQEncrypt.h */,
+				188027CA1E4C598800B189C8 /* NSString+SQEncrypt.m */,
+				188027CC1E4C599500B189C8 /* NSString+SQBase64.h */,
+				188027CD1E4C599500B189C8 /* NSString+SQBase64.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -357,6 +373,10 @@
 			children = (
 				187A829C1DF4F93F00816263 /* NSDate+SQExtentsion.h */,
 				187A829D1DF4F93F00816263 /* NSDate+SQExtentsion.m */,
+				188027CF1E4C59AC00B189C8 /* NSData+SQBase64.h */,
+				188027D01E4C59AC00B189C8 /* NSData+SQBase64.m */,
+				188027D21E4C5B5100B189C8 /* NSData+SQEncrypt.h */,
+				188027D31E4C5B5100B189C8 /* NSData+SQEncrypt.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -510,6 +530,7 @@
 				18A705431DF1711D00174D32 /* ViewController.m in Sources */,
 				18A705901DF296BB00174D32 /* UIColor+SQRandom.m in Sources */,
 				18A705841DF25B7400174D32 /* UIImage+Capture.m in Sources */,
+				188027CB1E4C598800B189C8 /* NSString+SQEncrypt.m in Sources */,
 				18A705401DF1711D00174D32 /* AppDelegate.m in Sources */,
 				18A7058D1DF2752000174D32 /* UIColor+SQHex.m in Sources */,
 				18E984BF1E1269480008DE5D /* UIControl+SQExtension.m in Sources */,
@@ -522,12 +543,15 @@
 				182CAFAF1E00F1AC003589C4 /* NSString+Handle.m in Sources */,
 				18A7057B1DF1747400174D32 /* UIView+SQFrame.m in Sources */,
 				18A705811DF25B5500174D32 /* UIImage+SQResize.m in Sources */,
+				188027D41E4C5B5100B189C8 /* NSData+SQEncrypt.m in Sources */,
 				182CAFAC1E00F118003589C4 /* NSString+MoneyString.m in Sources */,
+				188027D11E4C59AC00B189C8 /* NSData+SQBase64.m in Sources */,
 				18A705871DF26F4F00174D32 /* UIWindow+SQHierarchy.m in Sources */,
 				187A82B11DF68D3B00816263 /* UIApplication+SQExtension.m in Sources */,
 				187A82A71DF55FD400816263 /* UIDevice+SQHardware.m in Sources */,
 				18A705931DF2974700174D32 /* UIColor+SQGradient.m in Sources */,
 				18A7057E1DF17C4900174D32 /* UIView+Capture.m in Sources */,
+				188027CE1E4C599500B189C8 /* NSString+SQBase64.m in Sources */,
 				182CAFA81E00F0FF003589C4 /* NSString+StringSize.m in Sources */,
 				187A82A41DF53CA200816263 /* NSDictionary+SQSafety.m in Sources */,
 				18A7053D1DF1711D00174D32 /* main.m in Sources */,
