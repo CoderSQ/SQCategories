@@ -10,7 +10,7 @@
 
 @implementation UITextField (UITextField_SQPhoneNumberFormatter)
 
-+ (BOOL)phoneNumberFormatTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
++ (BOOL)sq_phoneNumberFormatTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
 {
     NSString *phoneNum = [textField.text stringByReplacingOccurrencesOfString:@" " withString:@""];
     // 手机号码长度为11位,且当前为添加内容时,不添加
