@@ -40,6 +40,9 @@
 		18A7058D1DF2752000174D32 /* UIColor+SQHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7058C1DF2752000174D32 /* UIColor+SQHex.m */; };
 		18A705901DF296BB00174D32 /* UIColor+SQRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7058F1DF296BB00174D32 /* UIColor+SQRandom.m */; };
 		18A705931DF2974700174D32 /* UIColor+SQGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A705921DF2974700174D32 /* UIColor+SQGradient.m */; };
+		18DDDB7E1E654CC50088F02A /* UITextField+UITextField_SQCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDDB7D1E654CC50088F02A /* UITextField+UITextField_SQCardNumberFormatter.m */; };
+		18DDDB811E654CD60088F02A /* UITextField+UITextField_SQPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDDB801E654CD60088F02A /* UITextField+UITextField_SQPhoneNumberFormatter.m */; };
+		18DDDB841E654D420088F02A /* UITextField+SQSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDDB831E654D420088F02A /* UITextField+SQSelected.m */; };
 		18E984BF1E1269480008DE5D /* UIControl+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E984BE1E1269480008DE5D /* UIControl+SQExtension.m */; };
 /* End PBXBuildFile section */
 
@@ -126,6 +129,12 @@
 		18A7058F1DF296BB00174D32 /* UIColor+SQRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SQRandom.m"; sourceTree = "<group>"; };
 		18A705911DF2974700174D32 /* UIColor+SQGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SQGradient.h"; sourceTree = "<group>"; };
 		18A705921DF2974700174D32 /* UIColor+SQGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SQGradient.m"; sourceTree = "<group>"; };
+		18DDDB7C1E654CC50088F02A /* UITextField+UITextField_SQCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+UITextField_SQCardNumberFormatter.h"; sourceTree = "<group>"; };
+		18DDDB7D1E654CC50088F02A /* UITextField+UITextField_SQCardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+UITextField_SQCardNumberFormatter.m"; sourceTree = "<group>"; };
+		18DDDB7F1E654CD60088F02A /* UITextField+UITextField_SQPhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+UITextField_SQPhoneNumberFormatter.h"; sourceTree = "<group>"; };
+		18DDDB801E654CD60088F02A /* UITextField+UITextField_SQPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+UITextField_SQPhoneNumberFormatter.m"; sourceTree = "<group>"; };
+		18DDDB821E654D420088F02A /* UITextField+SQSelected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SQSelected.h"; sourceTree = "<group>"; };
+		18DDDB831E654D420088F02A /* UITextField+SQSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SQSelected.m"; sourceTree = "<group>"; };
 		18E984BD1E1269480008DE5D /* UIControl+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+SQExtension.h"; sourceTree = "<group>"; };
 		18E984BE1E1269480008DE5D /* UIControl+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SQExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -272,6 +281,7 @@
 		18A705701DF173B400174D32 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				18DDDB721E6509B00088F02A /* UITextField */,
 				18E984BC1E1268EE0008DE5D /* UIControl */,
 				182CAF9F1E00E992003589C4 /* UINavigationBar */,
 				187A82AE1DF68C5C00816263 /* UIApplication */,
@@ -379,6 +389,19 @@
 				188027D31E4C5B5100B189C8 /* NSData+SQEncrypt.m */,
 			);
 			path = NSDate;
+			sourceTree = "<group>";
+		};
+		18DDDB721E6509B00088F02A /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				18DDDB7C1E654CC50088F02A /* UITextField+UITextField_SQCardNumberFormatter.h */,
+				18DDDB7D1E654CC50088F02A /* UITextField+UITextField_SQCardNumberFormatter.m */,
+				18DDDB7F1E654CD60088F02A /* UITextField+UITextField_SQPhoneNumberFormatter.h */,
+				18DDDB801E654CD60088F02A /* UITextField+UITextField_SQPhoneNumberFormatter.m */,
+				18DDDB821E654D420088F02A /* UITextField+SQSelected.h */,
+				18DDDB831E654D420088F02A /* UITextField+SQSelected.m */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 		18E984BC1E1268EE0008DE5D /* UIControl */ = {
@@ -533,6 +556,7 @@
 				188027CB1E4C598800B189C8 /* NSString+SQEncrypt.m in Sources */,
 				18A705401DF1711D00174D32 /* AppDelegate.m in Sources */,
 				18A7058D1DF2752000174D32 /* UIColor+SQHex.m in Sources */,
+				18DDDB7E1E654CC50088F02A /* UITextField+UITextField_SQCardNumberFormatter.m in Sources */,
 				18E984BF1E1269480008DE5D /* UIControl+SQExtension.m in Sources */,
 				187A829E1DF4F93F00816263 /* NSDate+SQExtentsion.m in Sources */,
 				187A82A11DF539AA00816263 /* NSArray+SQSafety.m in Sources */,
@@ -545,6 +569,7 @@
 				18A705811DF25B5500174D32 /* UIImage+SQResize.m in Sources */,
 				188027D41E4C5B5100B189C8 /* NSData+SQEncrypt.m in Sources */,
 				182CAFAC1E00F118003589C4 /* NSString+MoneyString.m in Sources */,
+				18DDDB841E654D420088F02A /* UITextField+SQSelected.m in Sources */,
 				188027D11E4C59AC00B189C8 /* NSData+SQBase64.m in Sources */,
 				18A705871DF26F4F00174D32 /* UIWindow+SQHierarchy.m in Sources */,
 				187A82B11DF68D3B00816263 /* UIApplication+SQExtension.m in Sources */,
@@ -554,6 +579,7 @@
 				188027CE1E4C599500B189C8 /* NSString+SQBase64.m in Sources */,
 				182CAFA81E00F0FF003589C4 /* NSString+StringSize.m in Sources */,
 				187A82A41DF53CA200816263 /* NSDictionary+SQSafety.m in Sources */,
+				18DDDB811E654CD60088F02A /* UITextField+UITextField_SQPhoneNumberFormatter.m in Sources */,
 				18A7053D1DF1711D00174D32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
