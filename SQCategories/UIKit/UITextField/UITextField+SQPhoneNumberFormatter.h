@@ -16,7 +16,7 @@
  *  参数 range 文本范围
  *  参数 string 字符串
  */
-+ (BOOL)sq_phoneNumberFormatTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
+- (BOOL)sq_phoneNumberFormatShouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
 
 
 @end

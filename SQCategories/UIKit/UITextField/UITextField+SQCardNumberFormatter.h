@@ -12,10 +12,9 @@
 
 /**
  *  银行卡格式化
- *  参数 textField UITextField控件
  *  参数 range 文本范围
  *  参数 string 字符串
  */
-+ (BOOL)sq_bankNumberFormatTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
+- (BOOL)sq_bankNumberFormatShouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
 
 @end

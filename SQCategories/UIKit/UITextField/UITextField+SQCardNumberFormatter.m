@@ -1,5 +1,5 @@
 //
-//  UITextField+UITextField_SQCardNumberFormatter.m
+//  UIself+UIself_SQCardNumberFormatter.m
 //  SQCategoriesDemo
 //
 //  Created by apple on 2017/2/28.
@@ -10,15 +10,15 @@
 
 @implementation UITextField (SQCardNumberFormatter)
 
-+ (BOOL)sq_bankNumberFormatTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+- (BOOL)sq_bankNumberFormatShouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
 {
-    NSString *cardNum = [textField.text stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *cardNum = [self.text stringByReplacingOccurrencesOfString:@" " withString:@""];
     // 手机号码长度为11位,且当前为添加内容时,不添加
     if (cardNum.length >= 19 && string.length) {
         return NO;
     }
     
-    NSMutableString *matchStr = [NSMutableString stringWithString:textField.text];
+    NSMutableString *matchStr = [NSMutableString stringWithString:self.text];
     if (!string.length) {
         [matchStr deleteCharactersInRange:range];
     }else{
@@ -28,8 +28,8 @@
     
     //这是获取改变后的textfiled的内容
     //获取当前光标的位置
-    NSUInteger targetCursorPosition = [textField offsetFromPosition:textField.beginningOfDocument
-                                                         toPosition:textField.selectedTextRange.start];
+    NSUInteger targetCursorPosition = [self offsetFromPosition:self.beginningOfDocument
+                                                         toPosition:self.selectedTextRange.start];
     
     NSMutableString *str =  [NSMutableString stringWithString:bankNum];
     //这个是判断是删除还是添加内容，假如是删除那就将光标向前移一个单位（特殊情况是当删除空格时要将光标向前再移一个单位），假如添加就要将光标向后移动一个单位（特殊情况是当添加空格时要将光标向后再移一个单位），这边其实比较绕，可以仔细想一下
@@ -70,11 +70,11 @@
         resStr = [arrStrs componentsJoinedByString:@" "];
     }
     
-    //将最终显示的内容复制给textfield
-    textField.text = resStr;
+    //将最终显示的内容复制给self
+    self.text = resStr;
     //该处其实就是选择内容 只不过这个内容长度为0
-    UITextPosition *targetPosition = [textField positionFromPosition:[textField beginningOfDocument] offset:targetCursorPosition];
-    [textField setSelectedTextRange:[textField textRangeFromPosition:targetPosition toPosition:targetPosition]];
+    UITextPosition *targetPosition = [self positionFromPosition:[self beginningOfDocument] offset:targetCursorPosition];
+    [self setSelectedTextRange:[self textRangeFromPosition:targetPosition toPosition:targetPosition]];
     return NO;
 }
 
