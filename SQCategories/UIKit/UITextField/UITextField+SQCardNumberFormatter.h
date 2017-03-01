@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField (UITextField_SQCardNumberFormatter)
+@interface UITextField (SQCardNumberFormatter)
 
 /**
  *  银行卡格式化

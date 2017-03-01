@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField (UITextField_SQPhoneNumberFormatter)
+@interface UITextField (SQPhoneNumberFormatter)
 
 /**
  *  手机号码格式化
