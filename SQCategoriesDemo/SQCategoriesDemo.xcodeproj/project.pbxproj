@@ -44,6 +44,7 @@
 		18DDDB811E654CD60088F02A /* UITextField+SQPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDDB801E654CD60088F02A /* UITextField+SQPhoneNumberFormatter.m */; };
 		18DDDB841E654D420088F02A /* UITextField+SQSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDDB831E654D420088F02A /* UITextField+SQSelected.m */; };
 		18E984BF1E1269480008DE5D /* UIControl+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E984BE1E1269480008DE5D /* UIControl+SQExtension.m */; };
+		18F510C91E76BC40003B08C1 /* NSString+SQMemorySize.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F510C81E76BC40003B08C1 /* NSString+SQMemorySize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,8 @@
 		18DDDB831E654D420088F02A /* UITextField+SQSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SQSelected.m"; sourceTree = "<group>"; };
 		18E984BD1E1269480008DE5D /* UIControl+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+SQExtension.h"; sourceTree = "<group>"; };
 		18E984BE1E1269480008DE5D /* UIControl+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SQExtension.m"; sourceTree = "<group>"; };
+		18F510C71E76BC40003B08C1 /* NSString+SQMemorySize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SQMemorySize.h"; sourceTree = "<group>"; };
+		18F510C81E76BC40003B08C1 /* NSString+SQMemorySize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQMemorySize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,8 @@
 				188027CA1E4C598800B189C8 /* NSString+SQEncrypt.m */,
 				188027CC1E4C599500B189C8 /* NSString+SQBase64.h */,
 				188027CD1E4C599500B189C8 /* NSString+SQBase64.m */,
+				18F510C71E76BC40003B08C1 /* NSString+SQMemorySize.h */,
+				18F510C81E76BC40003B08C1 /* NSString+SQMemorySize.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -563,6 +568,7 @@
 				18A7058A1DF2739A00174D32 /* UIScreen+SQFrame.m in Sources */,
 				187A82AA1DF5628D00816263 /* UIImage+SQRoundCoroner.m in Sources */,
 				182CAFA91E00F0FF003589C4 /* NSString+Validation.m in Sources */,
+				18F510C91E76BC40003B08C1 /* NSString+SQMemorySize.m in Sources */,
 				182CAFA21E00E9BB003589C4 /* UINavigationBar+SQExtension.m in Sources */,
 				182CAFAF1E00F1AC003589C4 /* NSString+Handle.m in Sources */,
 				18A7057B1DF1747400174D32 /* UIView+SQFrame.m in Sources */,
