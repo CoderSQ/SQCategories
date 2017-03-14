@@ -150,6 +150,11 @@
 {
     return [[UIDevice currentDevice] systemVersion];
 }
+
++ (BOOL)sq_isSystemVersionBiggerThanVersion:(NSInteger)comparsionVersion {
+    return [[[[UIDevice sq_systemVersion] componentsSeparatedByString:@"."] firstObject] integerValue] >= comparsionVersion;
+}
+
 + (BOOL)sq_hasCamera
 {
     return [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera];

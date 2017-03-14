@@ -28,6 +28,10 @@
 
 /// 获取iOS系统的版本号
 + (NSString *)sq_systemVersion;
+
+// 判断当前系统版本是否大于某个版本 (暂时只支持判断大版本号 如 iOS 7 . 8 .9 .10等,不支持小版本号
++ (BOOL)sq_isSystemVersionBiggerThanVersion:(NSInteger)comparsionVersion;
+
 /// 判断当前系统是否有摄像头
 + (BOOL)sq_hasCamera;
 /// 获取手机内存总量, 返回的是字节数
